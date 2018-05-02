@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="skyofcity"
+  id="myeclipse.1389358957784"
+  context-root="/skyofcity"
+  j2ee-spec="5.0"
+  archive="skyofcity.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

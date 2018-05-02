@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT virecordArr (virecordList)*>
+
+<!ELEMENT virecordList (virecord*)>
+
+<!ELEMENT virecord (times?|name?|instruction?|mode?|param_loca?)*>
+
+<!ELEMENT times EMPTY>
+<!ELEMENT name EMPTY>
+<!ELEMENT instruction EMPTY>
+<!ELEMENT mode EMPTY>
+<!ELEMENT param_loca EMPTY>
+

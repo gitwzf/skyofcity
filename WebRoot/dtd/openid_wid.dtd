@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT openidwidArr (openidwidList)*>
+
+<!ELEMENT openidwidList (openid_wid*)>
+
+<!ELEMENT openid_wid (openid?|email?|subtime?)*>
+
+<!ELEMENT openid EMPTY>
+<!ELEMENT email EMPTY>
+<!ELEMENT subtime EMPTY>
+

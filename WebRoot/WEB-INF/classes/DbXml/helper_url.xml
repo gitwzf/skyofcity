@@ -1,0 +1,14 @@
+<helperurlArr>
+   <helperList>
+      <helper_url>
+         <name>软考取证通知</name>
+         <beg>考生园地</beg>
+         <end>2018-03-12</end>
+         <regex>[\s\S]+2018-0[\d]{1}-[\s\S]+</regex>
+         <url>http://www.zjrjks.org/</url>
+         <method>get</method>
+         <tag>oZMIwuIlpJXjizV1-jEqRk35tmQg</tag>
+         <memo></memo>
+      </helper_url>
+   </helperList>
+</helperurlArr>

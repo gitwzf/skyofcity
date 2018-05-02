@@ -1,0 +1,153 @@
+table{
+	border:1px solid #ccc;
+	padding:0;
+}
+table { border-spacing: 0;border-collapse: collapse; }
+table * { padding:0px; margin : 0px;font-size:8px;}
+.upload-photo{
+	margin-right:40px;
+}
+tr th{
+	padding:10px;
+}
+.upload-photo,.upload-weixin{
+	width:180px;
+	position:relative;
+	height:220px;
+}
+.upload-box{
+	width:160px;
+	height:150px;
+	border:1px solid #ccc;
+	overflow:hidden;
+}
+.upload-box  img{
+	width:100%;
+}
+.file{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	opacity:1;
+	height:35px;
+	width:70px;
+	opacity:0;
+}
+.choose-btn{
+	margin-right:20px;
+   background:#28acb8;
+   border:none;
+   color:#fff;
+   height:30px;
+   line-height:26px;
+   border:1px solid #28acb8;
+}
+.upload-btn{
+   background:#d75d0b;
+   border:none;
+   color:#fff;
+   height:30px;
+   line-height:26px;
+   border:1px solid #d75d0b;
+}
+.choose-btn,.upload-btn{
+	width:70px;
+	margin-top:10px;
+}
+.line{
+	height:30px;
+	line-height:30px;
+	padding:0px 10px;
+}
+.line td{
+	padding:0 10px;
+}
+
+
+
+
+
+.edit-btn{
+	background-image:url(../images/edit.png);
+	background-position:center center;
+	height:30px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+}
+.delete-btn{
+	background-image:url(../images/delete.png);
+	background-position:center center;
+	height:30px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+}
+.edit-box{
+	position:fixed;
+	top:50px;
+	width:680px;
+	border:1px solid #ccc;
+	left:50%;
+	margin-left:-340px;
+	display:none;
+	padding:10px;
+	background:#fff;
+}
+
+.cancel{
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	width:25px;
+	height:25px;
+	background-image:url(../images/cancel.png);
+	background-size:100%;
+	
+}
+.item{
+	height:35px;
+	overflow:hidden;
+}
+.item label{
+	width:100px;
+	display:block;
+	float:left;
+}
+.item  input{
+	width:400px;
+	float:left;
+}
+
+.new-btn{
+	background-image:url(../images/new.png);
+	background-position:center center;
+	height:30px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+	float:left;
+}
+.search-btn{
+	background-image:url(../images/search.png);
+	background-position:center center;
+	height:30px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+	float:left;
+}
+.can-btn{
+	width:100px;
+	height:30px;
+	background:#ccc;
+	border:none;
+	margin-left:200px;
+	margin-right:20px;
+}
+.sav-btn{
+	width:100px;
+	height:30px;
+	background:green;
+	border:none;
+}

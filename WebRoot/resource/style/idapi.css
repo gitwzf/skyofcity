@@ -1,0 +1,28 @@
+#ch{
+   margin-right: 5px;
+    vertical-align: top;
+    width: 220px;
+        }
+        #showul{
+        float:right;
+        background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #817F82;
+    display: none;
+    position: absolute;
+    width: 250px;
+    right:60px;
+    bottom:15px
+        }
+        #showul li{
+        color: #000000;
+    cursor: default;
+    font: 14px/25px arial;
+    padding: 0 8px;
+    position: relative;
+    width: 220px;
+    list-style-type:none;
+        }
+        #showul li a:hover {
+    background: none repeat scroll 0 0 #EBEBEB;
+}
+    

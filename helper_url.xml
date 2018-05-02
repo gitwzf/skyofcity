@@ -1,0 +1,14 @@
+<helperurlArr>
+   <helperList>
+      <helper_url>
+         <name>多点佳得乐价格有变化</name>
+         <beg>佳得乐</beg>
+         <end>sell</end>
+         <regex>[\s\S]+3[0-7]0[\s\S]+</regex>
+         <url>http://gw.wx.dmall.com/ware/get?param=%7B%22skuId%22%3A%22100133585%22%2C%22venderId%22%3A%222%22%2C%22erpStoreId%22%3A%22403%22%7D&amp;token=&amp;source=2&amp;tempid=C70B15E3653000026D7532C712751D3E1461508411987&amp;_=1461509055642&amp;callback=jsonp1</url>
+         <method>get</method>
+         <tag>oZMIwuIlpJXjizV1-jEqRk35tmQg</tag>
+         <memo></memo>
+      </helper_url>
+   </helperList>
+</helperurlArr>

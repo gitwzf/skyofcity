@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT rekeywordArr (rekeywordList)*>
+
+<!ELEMENT rekeywordList (re_keyword*)>
+
+<!ELEMENT re_keyword (id?|type0?|name?|key0?|re_id?|content?|identity?|openid?)*>
+
+<!ELEMENT id EMPTY>
+<!ELEMENT type0 EMPTY>
+<!ELEMENT name EMPTY>
+<!ELEMENT key0 EMPTY>
+<!ELEMENT re_id EMPTY>
+<!ELEMENT content EMPTY>
+<!ELEMENT identity EMPTY>
+<!ELEMENT openid EMPTY>
+

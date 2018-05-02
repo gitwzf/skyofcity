@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT picmusrebackArr (picmusrebackList)*>
+
+<!ELEMENT picmusrebackList (pic_mus_reback*)>
+
+<!ELEMENT pic_mus_reback (id?|keyid?|type?|title?|main?|urlo?|pty?|url?|pid?)*>
+
+<!ELEMENT id EMPTY>
+<!ELEMENT keyid EMPTY>
+<!ELEMENT type EMPTY>
+<!ELEMENT title EMPTY>
+<!ELEMENT main EMPTY>
+<!ELEMENT urlo EMPTY>
+<!ELEMENT pty EMPTY>
+<!ELEMENT url EMPTY>
+<!ELEMENT pid EMPTY>
+

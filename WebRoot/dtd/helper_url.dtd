@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT helperurlArr (helperList)*>
+
+<!ELEMENT helperList (helper_url*)>
+
+<!ELEMENT helper_url (name?|beg?|end?|regex?|url?|method?|tag?|memo?)*>
+
+<!ELEMENT name EMPTY>
+<!ELEMENT beg EMPTY>
+<!ELEMENT end EMPTY>
+<!ELEMENT regex EMPTY>
+<!ELEMENT url EMPTY>
+<!ELEMENT method EMPTY>
+<!ELEMENT tag EMPTY>
+<!ELEMENT memo EMPTY>
+
+
